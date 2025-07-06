@@ -54,22 +54,38 @@ FactSales[Product_ID] → DimProduct[Product_ID]
 DimUsers[State] → DimAddress[State]
 
 🧠 Key Measures
+
 DAX
+
 Copy
+
 Edit
+
 TotalSales = SUM(FactSales[Amount])
+
 CustomerCount = DISTINCTCOUNT(DimUsers[User_ID])
+
 TotalProducts = DISTINCTCOUNT(FactSales[Product_ID])
+
 📊 Visuals in the Report
+
 Visual Title	Type	Purpose
+
 TotalSales by Age Group	Funnel Chart	See which age group drives revenue
+
 TotalSales by Product Category	Bar Chart	Top-selling product types
+
 Sales by State	Column Chart	Geographic distribution
+
 TotalSales by Gender	Donut Chart	Gender-based sales distribution
+
 Sales by Occupation	Line/Area Chart	Customer profession insights
+
 KPI Cards	Cards	Key business metrics summary
 
+
 🧱 Tools Used
+
 Power BI Desktop
 
 DAX (Data Analysis Expressions)
@@ -79,6 +95,7 @@ Power Query (M Language)
 Star Schema Modeling
 
 📌 How to Use
+
 Open the .pbix file in Power BI Desktop
 
 Connect or refresh the dataset
@@ -86,7 +103,9 @@ Connect or refresh the dataset
 Interact with slicers and visuals to analyze sales insights
 
 ✨ Screenshot
-![Screenshot 2025-07-06 160614](https://github.com/user-attachments/assets/d885cb4a-6d66-4d2a-a566-47dc84a202b6)
+
+![Screenshot 2025-07-06 160152](https://github.com/user-attachments/assets/061e0af2-b000-4679-a94b-52fb9e63c50e)
+
 
 
 💡 Author Notes
